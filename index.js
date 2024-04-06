@@ -59,7 +59,7 @@ function handleSubmit(event){
 
 // Form Component
 const Form = () => (
-    <form onClick = {handleSubmit}>
+    <form onSubmit = {handleSubmit}>
         <input value = {hit} />
         <input placeholder="Add a comment" ref = {inpuRef}/>
         <button>Submit</button>
